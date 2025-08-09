@@ -6,6 +6,10 @@
 
 .gif {
     display: none;
+    justify-content: space-between;
+    position: absolute;
+    left: 0px;
+    top: 120px;
 }
 
 .gifs {
@@ -808,5 +812,7 @@ h1 {
         left: -70px;
         animation-delay: 1s;
     }
-
+    .gif {
+        display: flex;
+    }
 }
