@@ -807,12 +807,26 @@ h1 {
         right: -70px;
         animation-delay: 1s;
     }
+
     .racket:nth-child(3) {
         bottom: 40px;
         left: -70px;
         animation-delay: 1s;
     }
+
     .gif {
         display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 0px;
+        top: 120px;
+    }
+
+    .gifs {
+        width: 30%;
+    }
+
+    #imagetwo {
+        transform: scaleX(-1);
     }
 }
