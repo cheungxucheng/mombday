@@ -5,11 +5,7 @@
 }
 
 .gif {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    left: 0px;
-    top: 120px;
+    display: none;
 }
 
 .gifs {
