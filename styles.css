@@ -17,7 +17,7 @@
 }
 
 #imagetwo {
-    transform:scaleX(-1);
+    transform: scaleX(-1);
 }
 
 body {
@@ -795,4 +795,22 @@ h1 {
     .feature-card:nth-child(4) .card-content {
         font-size: 11px;
     }
+
+    .racket:nth-child(1) {
+        top: 100px;
+        left: -60px;
+        animation-delay: 0s;
+    }
+
+    .racket:nth-child(2) {
+        bottom: 60px;
+        right: -70px;
+        animation-delay: 1s;
+    }
+    .racket:nth-child(3) {
+        bottom: 40px;
+        left: -70px;
+        animation-delay: 1s;
+    }
+
 }
